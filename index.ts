@@ -18,6 +18,14 @@ type User {
 
 type Product {
     id: ID!
+    gender: String
+    masterCategory: String
+    subCategory: String
+    articleType: String
+    baseColour: String
+    season: String
+    year: Int
+    usage_type: String
     productDisplayName: String
 }
 
